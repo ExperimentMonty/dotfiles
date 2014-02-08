@@ -10,3 +10,5 @@ set softtabstop=4   " Sets the number of columns for a TAB
 set expandtab       " Expand TABs to spaces
 
 set textwidth=80    " Sets text to wrap at 80 characters
+
+set ruler           " Shows what line and column number we're at
