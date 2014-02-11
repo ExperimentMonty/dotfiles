@@ -12,3 +12,9 @@ set expandtab       " Expand TABs to spaces
 set textwidth=80    " Sets text to wrap at 80 characters
 
 set ruler           " Shows what line and column number we're at
+
+set ignorecase      " Sets case-insensitive searching
+
+set hlsearch        " Sets search highlighting
+
+set incsearch       " Sets incremental searching
