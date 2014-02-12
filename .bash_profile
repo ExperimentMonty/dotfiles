@@ -10,3 +10,7 @@ fi
 alias ll='ls -lh'
 alias la='ls -a'
 alias ..='cd ..'
+alias apt-get='sudo apt-get'
+alias c='clear'
+alias tocuh='touch' #I always misspell this one.
+alias sha1='openssl sha1'
