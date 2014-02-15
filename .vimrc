@@ -18,3 +18,8 @@ set hlsearch        " Sets search highlighting
 set incsearch       " Sets incremental searching
 
 syntax enable       " Enables syntax highlighting
+
+" Vim key re-mappings 
+" Remaps 'jj' to the escape key, but only in insert mode (this comment needs to
+" be on a new line or the spaces will be interpreted as part of the remapping
+inoremap jj <ESC> 
