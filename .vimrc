@@ -17,7 +17,11 @@ set smartcase       " Allows case-insensitive searching if there are capital
 set hlsearch        " Sets search highlighting
 set incsearch       " Sets incremental searching
 
+" Syntax related settings
 syntax enable       " Enables syntax highlighting
+filetype on
+au BufNewFile,BufRead *.md set filetype=markdown    " Sets markdown highlighting
+                                                    " to apply to .md files as well
 
 " Vim key re-mappings 
 " Remaps 'jj' to the escape key, but only in insert mode (this comment needs to
