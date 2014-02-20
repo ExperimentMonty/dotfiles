@@ -14,3 +14,7 @@ alias apt-get='sudo apt-get'
 alias c='clear'
 alias tocuh='touch' #I always misspell this one.
 alias sha1='openssl sha1'
+alias p='python'
+alias p3='python3'
+alias wh='which'
+alias v='vim'
