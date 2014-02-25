@@ -22,6 +22,7 @@ syntax enable       " Enables syntax highlighting
 filetype on
 au BufNewFile,BufRead *.md set filetype=markdown    " Sets markdown highlighting
                                                     " to apply to .md files as well
+au BufRead,BufNewFile *.txt,*.dat,*.vimrc set tw=0  " Don't cut lines for text files
 
 " Vim key re-mappings 
 " Remaps 'jj' to the escape key, but only in insert mode (this comment needs to
