@@ -2,6 +2,7 @@
 ~/scripts/fortune.py  #FORTUNE!
 
 export PATH=.:/opt/bin:~/scripts:$PATH
+export PS1="\[\e[1;34m\]\h-\A \W$ \[\e[m\]"
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
