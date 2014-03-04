@@ -3,6 +3,6 @@
 echo "source ~/dotfiles/.bash_profile" >> ~/.bash_profile
 
 cp -i ~/dotfiles/.vimrc ~/.vimrc
-cp -i ~/dotfiles/.vim ~/.vim
+cp -i -r ~/dotfiles/.vim ~/.vim
 cp -i ~/dotfiles/.tmux.conf ~/.tmux.conf
 cp -i ~/dotfiles/.git-completion.bash ~/.git-completion.bash
