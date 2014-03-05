@@ -28,3 +28,5 @@ au BufRead,BufNewFile *.txt,*.dat,*.vimrc set tw=0  " Don't cut lines for text f
 " Remaps 'jj' to the escape key, but only in insert mode (this comment needs to
 " be on a new line or the spaces will be interpreted as part of the remapping
 inoremap jj <ESC> 
+" Jump to first non-whitespace character by default
+nmap 0 ^
