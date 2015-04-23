@@ -10,6 +10,8 @@ fi
 
 . ~/dotfiles/gradle-tab-completion.bash
 
+alias fuck='$(thefuck $(fc -ln -1))'
+
 alias ll='ls -lh'
 alias la='ls -a'
 alias ..='cd ..'
