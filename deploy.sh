@@ -6,3 +6,4 @@ cp -i ~/dotfiles/.vimrc ~/.vimrc
 cp -i -r ~/dotfiles/.vim ~/.vim
 cp -i ~/dotfiles/.tmux.conf ~/.tmux.conf
 cp -i ~/dotfiles/.git-completion.bash ~/.git-completion.bash
+cp -i ~/dotfiles/.inputrc ~/.inputrc
