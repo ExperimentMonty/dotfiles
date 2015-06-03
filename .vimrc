@@ -18,7 +18,9 @@ set hlsearch        " Sets search highlighting
 set incsearch       " Sets incremental searching
 
 " Syntax related settings
+execute pathogen#infect()
 syntax enable       " Enables syntax highlighting
+filetype plugin indent on
 filetype on
 au BufNewFile,BufRead *.md set filetype=markdown    " Sets markdown highlighting
                                                     " to apply to .md files as well
