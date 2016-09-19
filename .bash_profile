@@ -30,3 +30,12 @@ alias wh='which'
 alias v='vim'
 alias gitroot='cd "$(git rev-parse --show-toplevel)"'
 alias gw='./gradlew'
+
+# Extra scripts
+weather() {
+  if [[ -z $1 ]]; then
+    curl wttr.in
+  else
+    curl wttr.in/$1
+  fi
+}
