@@ -11,3 +11,6 @@ brew install thefuck
 brew install tmux
 brew install wget
 brew install zsh
+
+# Favored oh-my-zsh theme (pretty sure you don't need oh-my-zsh installed first)
+brew install romkatv/powerlevel10k/powerlevel10k
